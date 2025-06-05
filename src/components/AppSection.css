@@ -1,0 +1,77 @@
+.app-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px 10%;
+  background-color: #f9fdfb;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.app-images {
+  position: relative;
+  width: 280px;
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  width: 100%;
+  max-width: 220px;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.phone-back {
+  transform: rotate(-4deg) translateX(-20px);
+  z-index: 1;
+}
+
+.phone-front {
+  transform: rotate(3deg) translateX(20px);
+  z-index: 2;
+}
+
+.app-content {
+  max-width: 500px;
+  flex: 1;
+}
+
+.app-content h5 {
+  color: #17924e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.app-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.app-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.app-buttons img {
+  height: 42px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.app-buttons img:hover {
+  transform: scale(1.05);
+}

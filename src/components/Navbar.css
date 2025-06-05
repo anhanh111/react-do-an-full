@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 10%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #17924e;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navbar-menu li a:hover,
+.navbar-menu li a.active {
+  color: #17924e;
+  font-weight: 600;
+}
+
+
+
+.moon-icon {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-user button {
+  padding: 6px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid #17924e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: #17924e;
+}
+
+.navbar-user button:hover {
+  background-color: #17924e;
+  color: white;
+}

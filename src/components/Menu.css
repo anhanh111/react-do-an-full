@@ -1,0 +1,95 @@
+.menu-section {
+  background-color: #f9fdfb;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.menu-section h5 {
+  color: #17924e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menu-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.menu-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.menu-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.menu-footer strong {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-footer button {
+  width: 36px;
+  height: 36px;
+  background: #17924e;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.menu-footer button:hover {
+  background: #127a3d;
+}

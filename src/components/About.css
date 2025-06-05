@@ -1,0 +1,64 @@
+.about-section {
+  background-color: #f9fdfb;
+  padding: 80px 10%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;      /* 👈 nằm ngang */
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: nowrap;        /* 👈 KHÔNG cho xuống dòng */
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h5 {
+  color: #17924e;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-button {
+  padding: 12px 24px;
+  background-color: #17924e;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.about-button:hover {
+  background-color: #127a3d;
+}
